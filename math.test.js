@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 const {
   add, subtract, multiply, divide,
 } = require('./math');
@@ -8,7 +9,7 @@ describe('math.js test', () => {
   });
 
   test('should test subtract', () => {
-    expect(subtract(2, 5)).toBe(7);
+    expect(subtract(2, 5)).toBe(3);
   });
 
   test('should test multiply', () => {
